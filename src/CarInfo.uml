@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CarInfo</OriginalElement>
+  <nodes>
+    <node x="245.0" y="0.0">CarInfo</node>
+    <node x="473.0" y="174.0">CarInfo.Pick_up</node>
+    <node x="217.0" y="174.0">CarInfo.Truck</node>
+    <node x="0.0" y="174.0">CarInfo.Bus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CarInfo.Pick_up" target="CarInfo">
+      <point x="0.0" y="-39.0" />
+      <point x="607.5" y="149.0" />
+      <point x="395.0" y="149.0" />
+      <point x="60.0" y="62.0" />
+    </edge>
+    <edge source="CarInfo.Bus" target="CarInfo">
+      <point x="0.0" y="-39.0" />
+      <point x="98.5" y="149.0" />
+      <point x="275.0" y="149.0" />
+      <point x="-60.0" y="62.0" />
+    </edge>
+    <edge source="CarInfo.Truck" target="CarInfo">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="371.0" y="241.5" />
+  <SelectedNodes>
+    <node>CarInfo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
